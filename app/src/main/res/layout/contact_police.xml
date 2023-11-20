@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ContactPoliceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Contact Here"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/contactPoliceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Police"
+        android:padding="8dp" />
+</LinearLayout>
